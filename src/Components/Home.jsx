@@ -39,7 +39,10 @@ function Home(props) {
       method: "GET",
       headers: {
         "x-rapidapi-key": "147f87332dmsh3aa7548d27a4998p1ec887jsn812dce987720",
-        "x-rapidapi-host": "real-time-news-data.p.rapidapi.com"
+        "x-rapidapi-host": "real-time-news-data.p.rapidapi.com",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+
       }
     };
 
